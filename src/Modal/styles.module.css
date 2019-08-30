@@ -1,0 +1,41 @@
+.Modal {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+}
+
+.ModalHeader {
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background-color: white;
+  @media (min-width: 480px) {
+    background-color: cyan;
+  }
+}
+
+.ModalHeaderTitle {
+  height: 21px;
+  width: 245px;
+  color: #38454c;
+  font-family: Geomanist;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.ModalContent {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.ModalFooter {
+  padding: 10px;
+  background-color: white;
+}
