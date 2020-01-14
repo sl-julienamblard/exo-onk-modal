@@ -1,0 +1,14 @@
+.modalHeader {
+  color: grey;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  padding: 5px;
+  font-size: 16px;
+  align-items: center;
+}
